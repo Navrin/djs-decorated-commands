@@ -1,0 +1,26 @@
+{
+  "name": "djs-decorated-commands",
+  "version": "0.1.0",
+  "description": "A typescript oriented approach to command routing in discord.js.",
+  "main": "dist/index.js",
+  "repository": "https://www.github.com/Navrin/djs-decorated-commands",
+  "author": "Navrin Thomas",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha-typescript-watch"
+  },
+  "dependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.0",
+    "discord.js": "^11.1.0",
+    "growl": "^1.10.2",
+    "mocha": "^3.5.0",
+    "mocha-typescript": "^1.1.7",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0"
+  }
+}
